@@ -33,8 +33,6 @@ func Connection() *gorm.DB {
 	err = db.AutoMigrate(
 		&model.EntityUsers{},
 		&model.EntityProduct{},
-		&model.EntityOrder{},
-		&model.EntityOrderDetail{},
 		&model.EntityCart{},
 	)
 

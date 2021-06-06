@@ -12,7 +12,7 @@ import (
 
 type MetaToken struct {
 	ID            string
-	Username         string
+	Username      string
 	ExpiredAt     time.Time
 	Authorization bool
 }

@@ -11,10 +11,10 @@ gowatch:
 	nodemon --exec go run main.go --signal SIGTERM
 
 goclean:
-	go clean
+	${GO} clean
 
 gotest:
-	${GO} test -v
+	${GO} test main_test.go
 
 goformat:
 	${GO} fmt ./...
