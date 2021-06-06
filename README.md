@@ -7,7 +7,7 @@
    there are several approaches to this solution
    first will use the queue system when customers place orders, can use redis etc.
 
-   secondly check the stock quantity when going to checkout ##
+   secondly check the stock quantity when going to checkout
 
 2. 
 
